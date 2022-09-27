@@ -7,11 +7,11 @@
 ## ---------------------------------------------------------
 ## Example of an intended use:
 ## > ex <-makeCacheMatrix(matrix(c(-2.5, 1.5, 2, -1),ncol=2,nrow=2))
-## > cacheSolve(m)
+## > cacheSolve(ex)
 ##       [,1] [,2]
 ##  [1,]    2    4
 ##  [2,]    3    5
-## > cacheSolve(m)
+## > cacheSolve(ex)
 ## getting cached data
 ##       [,1] [,2]
 ##  [1,]    2    4
